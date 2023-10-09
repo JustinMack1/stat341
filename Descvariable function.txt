@@ -1,0 +1,134 @@
+
+R version 4.3.1 (2023-06-16) -- "Beagle Scouts"
+Copyright (C) 2023 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin20 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[R.app GUI 1.79 (8238) x86_64-apple-darwin20]
+
+[History restored from /Users/jmack/.Rapp.history]
+
+> variable1 <- c(1,23,4,5,6,7,8,9,10,1900)
+> mean(variable1)
+[1] 197.3
+> median(variable1)
+[1] 7.5
+> sd (variable1)
+[1] 598.2965
+> install.packages ('DescTools')
+--- Please select a CRAN mirror for use in this session ---
+also installing the dependencies ‘proxy’, ‘rematch’, ‘hms’, ‘rootSolve’, ‘e1071’, ‘lmom’, ‘cellranger’, ‘progress’, ‘mvtnorm’, ‘expm’, ‘Exact’, ‘gld’, ‘data.table’, ‘readxl’, ‘BH’
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/big-sur-x86_64/contrib/4.3/proxy_0.4-27.tgz'
+Content type 'application/x-gzip' length 200919 bytes (196 KB)
+==================================================
+downloaded 196 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/big-sur-x86_64/contrib/4.3/rematch_2.0.0.tgz'
+Content type 'application/x-gzip' length 16466 bytes (16 KB)
+==================================================
+downloaded 16 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/big-sur-x86_64/contrib/4.3/hms_1.1.3.tgz'
+Content type 'application/x-gzip' length 99181 bytes (96 KB)
+==================================================
+downloaded 96 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/big-sur-x86_64/contrib/4.3/rootSolve_1.8.2.4.tgz'
+Content type 'application/x-gzip' length 801693 bytes (782 KB)
+==================================================
+downloaded 782 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/big-sur-x86_64/contrib/4.3/e1071_1.7-13.tgz'
+Content type 'application/x-gzip' length 672133 bytes (656 KB)
+==================================================
+downloaded 656 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/big-sur-x86_64/contrib/4.3/lmom_3.0.tgz'
+Content type 'application/x-gzip' length 607378 bytes (593 KB)
+==================================================
+downloaded 593 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/big-sur-x86_64/contrib/4.3/cellranger_1.1.0.tgz'
+Content type 'application/x-gzip' length 101945 bytes (99 KB)
+==================================================
+downloaded 99 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/big-sur-x86_64/contrib/4.3/progress_1.2.2.tgz'
+Content type 'application/x-gzip' length 84015 bytes (82 KB)
+==================================================
+downloaded 82 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/big-sur-x86_64/contrib/4.3/mvtnorm_1.2-3.tgz'
+Content type 'application/x-gzip' length 810065 bytes (791 KB)
+==================================================
+downloaded 791 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/big-sur-x86_64/contrib/4.3/expm_0.999-7.tgz'
+Content type 'application/x-gzip' length 249255 bytes (243 KB)
+==================================================
+downloaded 243 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/big-sur-x86_64/contrib/4.3/Exact_3.2.tgz'
+Content type 'application/x-gzip' length 201848 bytes (197 KB)
+==================================================
+downloaded 197 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/big-sur-x86_64/contrib/4.3/gld_2.6.6.tgz'
+Content type 'application/x-gzip' length 257333 bytes (251 KB)
+==================================================
+downloaded 251 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/big-sur-x86_64/contrib/4.3/data.table_1.14.8.tgz'
+Content type 'application/x-gzip' length 2514067 bytes (2.4 MB)
+==================================================
+downloaded 2.4 MB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/big-sur-x86_64/contrib/4.3/readxl_1.4.3.tgz'
+Content type 'application/x-gzip' length 1563699 bytes (1.5 MB)
+==================================================
+downloaded 1.5 MB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/big-sur-x86_64/contrib/4.3/BH_1.81.0-1.tgz'
+Content type 'application/x-gzip' length 13497264 bytes (12.9 MB)
+==================================================
+downloaded 12.9 MB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/big-sur-x86_64/contrib/4.3/DescTools_0.99.50.tgz'
+Content type 'application/x-gzip' length 6069668 bytes (5.8 MB)
+==================================================
+downloaded 5.8 MB
+
+
+The downloaded binary packages are in
+	/var/folders/78/pv6n46lx2qb63v0wpx3ddhl00000gn/T//Rtmpnqhnla/downloaded_packages
+> 
+> library(DescTools)
+> Mode(variable1)
+[1] NA
+attr(,"freq")
+[1] 1
+> min(variable1)
+[1] 1
+> max(variable1)
+[1] 1900
+> var(variable1)
+[1] 357958.7
+2023-10-09 15:41:57.415 R[70750:5772488] +[CATransaction synchronize] called within transaction
+2023-10-09 15:43:22.264 R[70750:5772488] +[CATransaction synchronize] called within transaction
+2023-10-09 15:43:41.394 R[70750:5772488] +[CATransaction synchronize] called within transaction
+2023-10-09 15:43:46.967 R[70750:5772488] +[CATransaction synchronize] called within transaction
+> 
